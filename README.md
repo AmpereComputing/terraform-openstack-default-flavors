@@ -1,5 +1,5 @@
 # terraform-openstack-arm-raw-images
-Terraform module for managing ARM Arch RAW OpenStack Images
+Terraform module for managing aarch64 RAW OpenStack Images
 
 ## CentOS
 
