@@ -9,7 +9,8 @@ Terraform module for managing ARM Arch RAW OpenStack Images
 ## Debian
 
 * [debian/main.tf](debian/main.tf)
-* [Debian OpenStack Images](https://cdimage.debian.org/cdimage/openstack/current-9/)
+* [Debian 9](https://cdimage.debian.org/cdimage/openstack/current-9/)
+* [Debian 10](https://cdimage.debian.org/cdimage/openstack/current-10/)
 
 ## Fedora
 
