@@ -13,7 +13,7 @@ Terraform module for managing ARM Arch RAW OpenStack Images
 
 ## Fedora
 
-* [fedora/fedora_atomic_image.sh](fedora/fedora_atomic_image.sh)
+* [fedora/fedora_server_image.sh](fedora/fedora_server_image.sh)
 * [fedora/main.tf](fedora/main.tf)
 
 ## Ubuntu
