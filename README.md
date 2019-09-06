@@ -16,11 +16,6 @@ Terraform module for managing ARM Arch RAW OpenStack Images
 * [fedora/fedora_atomic_image.sh](fedora/fedora_atomic_image.sh)
 * [fedora/main.tf](fedora/main.tf)
 
-## OpenSuSE
-
-* [opensuse/main.tf](opensuse/main.tf)
-* [openSUSE Cloud Images](http://download.opensuse.org/repositories/Cloud:/Images:/)
-
 ## Ubuntu
 
 * [ubuntu/main.tf](ubuntu/main.tf)
