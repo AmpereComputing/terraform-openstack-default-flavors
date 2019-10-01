@@ -7,7 +7,7 @@ resource "null_resource" "download-extract-image-bionic" {
 resource "openstack_images_image_v2" "ubuntu_1804_bionic_arm64_raw" {
   count = var.enable_ubuntu ? 1:0
   name   = "ubuntu-18.04-bionic-server-cloudimg-arm64-raw"
-  local_file_path = "${pathexpand("~/.terraform/image_cache/bionic-server-cloudimg-arm64-disk1.raw")}"
+  local_file_path = "${pathexpand("~/.terraform/image_cache/bionic-server-cloudimg-arm64.raw")}"
   container_format = "bare"
   disk_format = "raw"
   depends_on = [
