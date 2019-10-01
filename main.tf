@@ -1,14 +1,14 @@
 module "raw_centos_img" {
   source = "./centos"
-  enable_centos = false
+#  enable_centos = true
 }
 module "raw_debian_img" {
   source = "./debian"
-  enable_debian = false
+#  enable_debian = false
 }
 module "raw_fedora_img" {
   source = "./fedora"
-  enable_fedora = false
+#  enable_fedora = true
 }
 #module "raw_freebsd_img" {
 #  source = "./freebsd"
@@ -20,5 +20,5 @@ module "raw_fedora_img" {
 #}
 module "raw_ubuntu_img" {
   source = "./ubuntu"
-  enable_ubuntu = false
+#  enable_ubuntu = true
 }
