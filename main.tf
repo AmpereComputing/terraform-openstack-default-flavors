@@ -11,7 +11,10 @@ module "raw_debian_img" {
 }
 module "raw_fedora_img" {
   source = "./fedora"
-  enable_fedora = true
+  enable_fedora_server_29_aarch64_raw = true
+  enable_fedora_server_29_aarch64_qcow2 = true
+  enable_fedora_server_30_aarch64_raw = true
+  enable_fedora_server_30_aarch64_qcow2 = true
 }
 #module "raw_freebsd_img" {
 #  source = "./freebsd"
