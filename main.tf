@@ -4,7 +4,10 @@ module "raw_centos_img" {
 }
 module "raw_debian_img" {
   source = "./debian"
-  enable_debian = true
+  enable_debian_9_arm64_raw = true
+  enable_debian_9_arm64_qcow2 = true
+  enable_debian_10_arm64_raw = true
+  enable_debian_10_arm64_qcow2 = true
 }
 module "raw_fedora_img" {
   source = "./fedora"
