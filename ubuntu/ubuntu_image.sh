@@ -38,7 +38,7 @@ fi
 
 if [ -e $CLOUDIMG.img ]
   echo "Ubuntu image found.  Removing image."
-  rm -rf $UBUNTU_RELEASE-server-cloudimg-arm64-disk1.*
+  # rm -rf $UBUNTU_RELEASE-server-cloudimg-arm64-disk1.*
 then
   echo "Proceeding to downloading Ubuntu $1 image."
   echo
