@@ -25,5 +25,5 @@ else
 fi
 wget https://download.opensuse.org/repositories/Cloud:/Images:/Leap_15.1/images/openSUSE-Leap-15.1-OpenStack.aarch64.qcow2 -O openSUSE-Leap-15.1-OpenStack.aarch64.qcow2
 echo "Converting qcow image to raw"
-qemu-img convert -f qcow2 -O raw openSUSE-Leap-15.1-OpenStack.aarch64.qcow2 openSUSE-Leap-15.0-OpenStack.aarch64.raw
+qemu-img convert -f qcow2 -O raw openSUSE-Leap-15.1-OpenStack.aarch64.qcow2 openSUSE-Leap-15.1-OpenStack.aarch64.raw
 cd $PROJECT_DIR

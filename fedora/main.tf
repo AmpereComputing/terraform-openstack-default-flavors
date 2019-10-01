@@ -1,7 +1,7 @@
 # Run script to download and extract image file befor uploading to glance
 resource "null_resource" "download-extract-image-fedora-server" {
   provisioner "local-exec" {
-    command = "sh fedora_server_image.sh"
+    command = "${path.module}/fedora_server_image.sh"
   }
 }
 
