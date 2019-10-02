@@ -1,4 +1,4 @@
-# terraform-openstack-aarch64-raw-images
+# terraform-openstack-aarch64-images
 Terraform module for managing aarch64 RAW OpenStack Images
 
 ## CentOS
