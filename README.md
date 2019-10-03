@@ -1,24 +1,9 @@
-# terraform-openstack-aarch64-images
-Terraform module for managing aarch64 QCOW2 and RAW OpenStack Images
+# terraform-openstack-boostrap-tenant
+Terraform module for bootstraping basic configuration for tenant usage.
 
-## CentOS
+* [main.tf](main.tf)
 
-* [centos/centos_image.sh](centos/centos_image.sh)
-* [centos/main.tf](centos/main.tf)
+## OpenStack Default Flavors
 
-## Debian
-
-* [debian/main.tf](debian/main.tf)
-* [Debian 9](https://cdimage.debian.org/cdimage/openstack/current-9/)
-* [Debian 10](https://cdimage.debian.org/cdimage/openstack/current-10/)
-
-## Fedora
-
-* [fedora/fedora_server_image.sh](fedora/fedora_server_image.sh)
-* [fedora/main.tf](fedora/main.tf)
-
-## Ubuntu
-
-* [ubuntu/main.tf](ubuntu/main.tf)
-* [ubuntu/ubuntu_image.sh](ubuntu/ubuntu_image.sh)
-* [Ubuntu Cloud Images](https://cloud-images.ubuntu.com/daily/server/)
+* [default-flavors/main.tf](default-flavors/main.tf)
+* [default-flavors/main.tf](default-flavors/main.tf)
