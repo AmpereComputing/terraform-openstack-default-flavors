@@ -1,11 +1,13 @@
-# terraform-openstack-post-install
-Terraform module for bootstraping basic configuration for tenant usage after OpenStack installation.
+![Ampere Computing](https://avatars2.githubusercontent.com/u/34519842?s=400&u=1d29afaac44f477cbb0226139ec83f73faefe154&v=4)
 
-* [main.tf](main.tf)
+# terraform-openstack-default-flavors
 
-## OpenStack Default Flavors
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Terraform to enable some default flavors after an installation of openstack.
+
+## Description
+
+Terraform module to enable some default flavors after an installation of openstack.
 
 * [default-flavors/main.tf](default-flavors/main.tf)
 * [default-flavors/variables.tf](default-flavors/variables.tf)
