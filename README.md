@@ -9,5 +9,17 @@
 
 Terraform module to enable some default flavors after an installation of openstack.
 
-* [default-flavors/main.tf](default-flavors/main.tf)
-* [default-flavors/variables.tf](default-flavors/variables.tf)
+## Usage
+
+```
+
+module "default_flavors" {
+  source = "github.com/amperecomputing/terraform-openstack-default-flavors"
+  enable_m1_tiny = true
+  enable_m1_small = true
+  enable_m1_medium = true
+  enable_m1_large = true
+  enable_m1_xlarge = true
+}
+
+```
