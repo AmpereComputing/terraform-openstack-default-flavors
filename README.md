@@ -7,7 +7,7 @@
 
 ## Description
 
-Terraform module to enable some default flavors after an installation of openstack.
+Terraform module to enable some default flavors after an installation of openstack.  Default values were translated from the init-runonce scripts.
 
 ## Usage
 
