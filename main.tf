@@ -5,7 +5,6 @@ resource "openstack_compute_flavor_v2" "m1-tiny" {
   vcpus = "1"
   disk  = "1"
   is_public = "1"
-  id = "1"
 
   extra_specs = {
     "hw:cpu_policy"        = "CPU-POLICY",
@@ -19,7 +18,6 @@ resource "openstack_compute_flavor_v2" "m1-small" {
   vcpus = "1"
   disk  = "20"
   is_public = "1"
-  id = "2"
 
   extra_specs = {
     "hw:cpu_policy"        = "CPU-POLICY",
@@ -33,7 +31,6 @@ resource "openstack_compute_flavor_v2" "m1-medium" {
   vcpus = "2"
   disk  = "40"
   is_public = "1"
-  id = "3"
 
   extra_specs = {
     "hw:cpu_policy"        = "CPU-POLICY",
@@ -47,7 +44,6 @@ resource "openstack_compute_flavor_v2" "m1-large" {
   vcpus = "4"
   disk  = "80"
   is_public = "1"
-  id = "4"
 
   extra_specs = {
     "hw:cpu_policy"        = "CPU-POLICY",
@@ -61,7 +57,6 @@ resource "openstack_compute_flavor_v2" "m1-xlarge" {
   vcpus = "8"
   disk  = "160"
   is_public = "1"
-  id = "5"
 
   extra_specs = {
     "hw:cpu_policy"        = "CPU-POLICY",
