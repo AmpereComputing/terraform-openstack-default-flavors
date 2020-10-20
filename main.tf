@@ -6,10 +6,10 @@ resource "openstack_compute_flavor_v2" "m1-tiny" {
   disk  = "1"
   is_public = "1"
 
-  extra_specs = {
-    "hw:cpu_policy"        = "CPU-POLICY",
-    "hw:cpu_thread_policy" = "CPU-THREAD-POLICY"
-  }
+# extra_specs = {
+#   "hw:cpu_policy"        = "CPU-POLICY",
+#   "hw:cpu_thread_policy" = "CPU-THREAD-POLICY"
+# }
 }
 resource "openstack_compute_flavor_v2" "m1-small" {
   count = var.enable_m1_small ? 1:0
@@ -19,10 +19,10 @@ resource "openstack_compute_flavor_v2" "m1-small" {
   disk  = "20"
   is_public = "1"
 
-  extra_specs = {
-    "hw:cpu_policy"        = "CPU-POLICY",
-    "hw:cpu_thread_policy" = "CPU-THREAD-POLICY"
-  }
+# extra_specs = {
+#   "hw:cpu_policy"        = "CPU-POLICY",
+#   "hw:cpu_thread_policy" = "CPU-THREAD-POLICY"
+# }
 }
 resource "openstack_compute_flavor_v2" "m1-medium" {
   count = var.enable_m1_medium ? 1:0
@@ -32,10 +32,10 @@ resource "openstack_compute_flavor_v2" "m1-medium" {
   disk  = "40"
   is_public = "1"
 
-  extra_specs = {
-    "hw:cpu_policy"        = "CPU-POLICY",
-    "hw:cpu_thread_policy" = "CPU-THREAD-POLICY"
-  }
+# extra_specs = {
+#   "hw:cpu_policy"        = "CPU-POLICY",
+#   "hw:cpu_thread_policy" = "CPU-THREAD-POLICY"
+# }
 }
 resource "openstack_compute_flavor_v2" "m1-large" {
   count = var.enable_m1_large ? 1:0
@@ -45,10 +45,10 @@ resource "openstack_compute_flavor_v2" "m1-large" {
   disk  = "80"
   is_public = "1"
 
-  extra_specs = {
-    "hw:cpu_policy"        = "CPU-POLICY",
-    "hw:cpu_thread_policy" = "CPU-THREAD-POLICY"
-  }
+# extra_specs = {
+#   "hw:cpu_policy"        = "CPU-POLICY",
+#   "hw:cpu_thread_policy" = "CPU-THREAD-POLICY"
+# }
 }
 resource "openstack_compute_flavor_v2" "m1-xlarge" {
   count = var.enable_m1_xlarge ? 1:0
@@ -58,8 +58,8 @@ resource "openstack_compute_flavor_v2" "m1-xlarge" {
   disk  = "160"
   is_public = "1"
 
-  extra_specs = {
-    "hw:cpu_policy"        = "CPU-POLICY",
-    "hw:cpu_thread_policy" = "CPU-THREAD-POLICY"
-  }
+# extra_specs = {
+#   "hw:cpu_policy"        = "CPU-POLICY",
+#   "hw:cpu_thread_policy" = "CPU-THREAD-POLICY"
+# }
 }
